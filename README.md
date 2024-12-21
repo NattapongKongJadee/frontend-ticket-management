@@ -1,52 +1,20 @@
-# React + TypeScript + Vite
+## Installation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Run the following commands to set up the project:
+```
+npm install
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+## Guide
 ```
-# nipacloud-frontend
-# nipacloud-frontend
+-การสร้าง Ticket ในครั้งแรกจะเป็นสถานะ pending
+-Ticket จะถูกเรียงลำดับจาก updated ครั้งล่าสุดเสมอ
+```
+
+
+
+![Screenshot 2567-12-21 at 08 24 38](https://github.com/user-attachments/assets/fc6157eb-0200-4c1e-8e6f-390dba71ea11)
+![Screenshot 2567-12-21 at 08 24 45](https://github.com/user-attachments/assets/5293f072-3b9c-431c-a9b7-26ab0ffa9c72)
+![Screenshot 2567-12-21 at 08 24 50](https://github.com/user-attachments/assets/589d9a9d-a2d9-49c5-a954-58d93c15ad07)
+![Screenshot 2567-12-21 at 08 24 56](https://github.com/user-attachments/assets/5f9720f6-994a-4020-8c47-608edf498b57)
